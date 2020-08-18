@@ -9,7 +9,7 @@ def square(k):
 
 def square_sum(n):
     """
-        This function returns the sum of squares
+        This function returns the sum of squares.
     """
     k = 0
     while n:
