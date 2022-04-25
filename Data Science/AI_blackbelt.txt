@@ -1,0 +1,167 @@
+###########   Data Science Tool Kit  ##############################
+Master Microsoft Excel 
+Explore Important formulas and functions
+Create Charts and visualization using MS Excel
+Get Familier with MySQL
+Creating and updating report on MySQL
+Performing data analysis using MySQL
+Explore python for data Science
+Important libraries and functions in python
+Reading file and manipulation in python
+Working with dataframes , list and dict in python
+
+########### Data Exploration and Statistical Inference #############
+
+Use Matplotlib and Seaborn for data visualization
+Creating charts to visualize data and generate insights
+Univariate and Bivariate analysis using python
+Perform Statistical Analysis on real-world datasets
+Build and Validate Hypothesis using statistical tests
+Generating useful insights from the data
+
+#############  Storytelling and Dashboarding  #######################
+Importing and working with different kinds of data in Tableau
+Build bubble charts, geo-location charts, and many others
+Learn to create Dashboards in Tableau
+Master storyboarding in Tableau
+Learn to create engaging presentations
+Perform feature engineering in TableauClustering Algorithms including k-means and Hierarchical clustering
+################# Problem Formulation and Communication  ############
+Dealing with ambiguous business problems
+Structure a business problem into a data science problem
+Understanding the Machine Learning Lifecycle
+Key Frameworks for each stage in ML Lifecycle
+Present analysis and business insights in an impactful manner
+Communicate ideas and insights to the stakeholders
+
+################# Basic Machine Learning ###########################
+Learn Important Machine Learning concepts
+Perform data cleaning and Preprocessing
+In-depth understanding of Basic ML models
+Linear Models, Decision Tree, k-NN
+Math Behind each Machine Learning Algorithm
+Building Classification and Regression Models
+Hyperparameter Tuning to improve model
+Solving real-world business problems using Machine Learning
+
+################  Feature Selection and Engineering  ##############
+Learn the art of Feature engineering
+Feature Generation from time-series data
+Automated Feature Engineering Tool
+Concept of dimensionality reduction
+Feature Selection and Elimination Techniques
+Detailed Understanding of Principal Component Analysis (PCA)
+Concept of Factor Analysis
+
+###############  Advanced Machine Learning  ######################## 
+Explore the Advanced ML concepts and Algorithms
+Use Ensemble Learning Techniques (Stacking and Blending)
+Understand and Implement Bagging and Boosting Algorithms
+Learn to handle Text data and Image Data
+Working with structured and unstructured data
+Dealing with unsupervised learning problems
+Clustering Algorithms including k-means and Hierarchical clustering
+
+################# Deep Learning ###################################
+Important concepts of Deep Learning
+Working of Neural Network from Scratch
+Activation Functions and Optimizers for Deep Learning
+Understand Deep Learning architectures (MLP, CNN, RNN and more)
+Explore Deep Learning Frameworks like Keras and PyTorch
+Learn to tune the hyperparameters of Neural Networks
+Build Deep Learning models to tackle real-life problems
+
+################# Computer Vision using pytorch ###################
+Get familiar with the world of Computer Vision
+Transfer Learning for Computer Vision
+Work with popular Deep Learning Framework - Pytorch
+Learn State-of-the-art Algorithms like YOLO, SSD, RCNN and more
+Work on different types of problems
+Build Face Detection and Pose Detection Model
+Advanced CV Problems like Image Segmentation and Image Generation
+Understand how GANs work
+
+######### Getting started with Natural Language Processing  #######
+Handling Text Data (Cleaning and Pre-processing)
+Use Spacy, Rasa and Regex for exploring and processing text data
+Information Extraction and Retrieval from text-based data
+Understand Language Modelling
+Learn Advanced Feature Engineering techniques
+Build NLP models for Text Classification
+Understand Topic modelling
+Work on Industry Relevant Projects
+
+################ NLP using Deep Learning #########################
+Understand the concept of Sequence-to-Sequence Modeling
+Build a Deep Learning Model for Language translation in PyTorch
+Learn to use Transformers library by Huggingface
+Use Transformers to perform transfer learning in NLP
+Build and Deploy your own chatbot
+Learn to work with audio-based data
+Build a voice assistant system using Deep Learning
+
+###############  Recommendation System  ########################
+Recommender Systems in industry
+Detailed Taxonomy of types of Recommender Systems
+Collaborative Filtering Methods
+Content-Based Recommender Systems
+Knowledge-Based & Hybrid Recommender Systems
+Market Basket Analysis & Association Rules
+Evaluation of Recommender Systems
+Build Book recommender System and other real-life projects
+
+
+###################### Time Series ############################
+Important concepts of Time Series Forecasting
+Machine Learning techniques for Time Series forecasting
+Validation techniques for Time series data
+Framework to evaluate Time Series Models
+Exponential Smoothing Methods for forecasting
+Reading ACF and PACF plots
+Tuning Parameters for ARIMA
+ARIMA and SARIMA Model
+Deep Learning for time series
+Solve Real-world business problems
+
+###  Career-oriented services and Data Science Interviews ####
+Understanding the different roles in Data Science
+Dos and Don'ts for Resume Building
+Tips and strategies to build the perfect resume
+Preparing for Data Science Interviews
+Understanding the important skills required
+How to build your digital Presence
+Tips and Tricks to Ace Data Science Resume
+List of Interview Questions for Data Science
+
+##### Advanced Python and Software Engineering Fundamentals ####
+Overview of Python Basics
+Documentation and Formatting
+Testing and Debugging
+Exception Handling and Assertions
+Python Standard Libraries
+Functional Programming
+Object Oriented Programming
+Working with Shell/Terminal Commands
+Introduction to Version Control and Github
+Connecting with DataBases
+
+######## Mastering Apache Spark using Python ###################
+Introduction to Hadoop and Spark Ecosystem
+Deep Dive into Spark Ecosystem
+RDDs in Spark
+DataFrames in Spark
+Spark SQL
+Data Wrangling with Spark
+Jobs, Stages and Tasks in Spark
+Advanced Programming in Spark
+Machine Learning with Spark ML
+
+
+################ Deploying ML/DL Models ########################
+Overview and aspects of Model Deployment
+Deploying Machine Learning models using Streamlit
+Introduction to Amazon Web services
+Deploying and Machine Learning Deep Learning models using AWS
+Understanding Amazon Sagemaker
+Model Deployment using Sagemaker
+APIs for Model deployment
