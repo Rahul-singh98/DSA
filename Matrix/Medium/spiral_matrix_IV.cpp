@@ -17,14 +17,16 @@ public:
     vector<vector<int>> spiralMatrix(int m, int n, ListNode *head)
     {
         vector<vector<int>> res(m);
+        int mv[4][2] = {{0, 1}, {1, 0}, {0, -1}, {-1, 0}};
+        int x = 0, y = 0, dir = 0;
+        
         for (int i = 0; i < m; i++)
         {
             res[i].resize(n);
             for (int j = 0; j < n; j++)
                 res[i][j] = -1;
         }
-        int mv[4][2] = {{0, 1}, {1, 0}, {0, -1}, {-1, 0}};
-        int x = 0, y = 0, dir = 0;
+        
         while (1)
         {
             if (!head)

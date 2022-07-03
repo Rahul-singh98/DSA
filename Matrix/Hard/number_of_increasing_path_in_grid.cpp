@@ -11,6 +11,8 @@ public:
         vector<vector<int>> dp;
         int n = grid.size();
         int m = grid[0].size();
+        int mod = 1e9 + 7;
+        int ans = 0;
         dp.resize(n);
 
         for (int i = 0; i < n; i++)
@@ -23,9 +25,6 @@ public:
                 h.push_back({grid[i][j], i, j});
 
         sort(h.begin(), h.end());
-
-        int mod = 1e9 + 7;
-        int ans = 0;
 
         for (auto v : h)
         {
