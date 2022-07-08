@@ -10,7 +10,7 @@ class Solution:
         for i in A:
             heappush(pq, -1 * i)
             
-        ans = 0;
+        ans = 0
         while(K):
             ele = heappop(pq)
             ele = (-1 * ele)
