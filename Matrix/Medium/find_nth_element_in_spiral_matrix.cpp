@@ -37,27 +37,32 @@ int main()
 // the size of the matrix A and then the forth argument is an integer  k denoting the kth element . 
 // The function will return the kth element obtained while traversing the matrix spirally.
 /*You are required to complete this method*/
-int findK(int matrix[MAX][MAX], int r, int c, int tar)
+int findK(int A[MAX][MAX], int n, int m, int k)
 {
-    int k = 0;
-    while(r > k && c > k)
-    {
-        for(int j = k; j < c; j++)
-            if(--tar == 0) return matrix[k][j];
-            
-        for(int i = k + 1; i < r; i++)
-            if(--tar == 0) return matrix[i][c-1];
-            
-        for(int j = c-2; j >= k && r!= k+1; j--)
-            if(--tar == 0) return matrix[r-1][j];
-            
-        for(int i = r-2; i > k && c != k+1; i--)
-            if(--tar == 0) return matrix[i][k];
-            
-        r--;
-        c--;
-        k++;
-    }
-    return -1;
+    if (n < 1 || m < 1)
+        return -1;
+
+    /*....If element is in outermost ring ....*/
+    /* Element is in first row */
+    if (k <= m)
+        return A[0][k - 1];
+
+    /* Element is in last column */
+    if (k <= (m + n - 1))
+        return A[(k - m)][m - 1];
+
+    /* Element is in last row */
+    if (k <= (m + n - 1 + m - 1))
+        return A[n - 1][m - 1 - (k - (m + n - 1))];
+
+    /* Element is in first column */
+    if (k <= (m + n - 1 + m - 1 + n - 2))
+        return A[n - 1 - (k - (m + n - 1 + m - 1))][0];
+
+    /*....If element is NOT in outermost ring ....*/
+    /* Recursion for sub-matrix. &A[1][1] is
+    address to next inside sub matrix.*/
+    return findK((int(*)[MAX])(&(A[1][1])), n - 2,
+                 m - 2, k - (2 * n + 2 * m - 4));
 }
 
