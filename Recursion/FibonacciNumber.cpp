@@ -5,7 +5,10 @@ using namespace std;
 class Solution {
 public:
     int fib(int n) {
+        // Base Case
        if(n<2) return n;
+
+       // sub problem
        return fib(n-1) + fib(n-2);
     }
 };
