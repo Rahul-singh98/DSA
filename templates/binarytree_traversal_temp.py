@@ -42,5 +42,3 @@ def levelorder(root: TreeNode) -> None:
             if node.right: 
                 q.append(node.right)
 
-        print()
-
